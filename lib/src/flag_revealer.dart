@@ -223,10 +223,10 @@ class _FlagRevealerState extends State<FlagRevealer>
 
     loadFlagLayers();
 
-    const double revealDuration = 0.4; // Duration for each reveal animation
+    const double eachRevealDuration = 0.4;
     const double pauseDuration = 3;
     double totalDuration =
-        flagLayers.length * (revealDuration + pauseDuration) -
+        flagLayers.length * (eachRevealDuration + pauseDuration) -
             pauseDuration +
             0.011; // 0.011 is a hack to make sure the last animation completes
 
@@ -238,8 +238,8 @@ class _FlagRevealerState extends State<FlagRevealer>
     _animations = List.generate(
       flagLayers.length,
       (index) {
-        double startTime = index * (revealDuration + pauseDuration);
-        double endTime = startTime + revealDuration;
+        double startTime = index * (eachRevealDuration + pauseDuration);
+        double endTime = startTime + eachRevealDuration;
 
         return Tween<double>(begin: 0, end: 1).animate(
           CurvedAnimation(
