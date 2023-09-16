@@ -1,0 +1,224 @@
+name: aniflag
+description: Revealing flag elements using flutter_svg.
+version: 0.0.1
+homepage: playgeo.one
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  test: ^1.24.3
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # To add assets to your package, add an assets section, like this:
+  assets:
+    - assets/armenia/
+    - assets/austria/
+    - assets/belgium/
+    - assets/bulgaria/
+    - assets/chad/
+    - assets/cote_divoire/
+    - assets/estonia/
+    - assets/france/
+    - assets/germany/
+    - assets/gabon/
+    - assets/guinea/
+    - assets/hungary/
+    - assets/italy/
+    - assets/ireland/
+    - assets/italy/
+    - assets/lithuania/
+    - assets/luxembourg/
+    - assets/mali/
+    - assets/netherlands/
+    - assets/nigeria/
+    - assets/peru/
+    - assets/romania/
+    - assets/russia/
+    - assets/sierra_leone/
+    - assets/yemen/
+    - assets/indonesia/
+    - assets/monaco/
+    - assets/poland/
+    - assets/ukraine/
+    - assets/colombia/
+    - assets/latvia/
+    - assets/gambia/
+    - assets/botswana/
+    - assets/mauritius/
+    - assets/thailand/
+    - assets/costa_rica/
+    - assets/benin/
+    - assets/madagascar/
+    - assets/united_arab_emirates/
+    - assets/bangladesh/
+    - assets/japan/
+    - assets/sudan/
+    - assets/bahamas/
+    - assets/cameroon/
+    - assets/palau/
+    - assets/czechia/
+    - assets/chile/
+    - assets/vietnam/
+    - assets/somalia/
+    - assets/senegal/
+    - assets/morocco/
+    - assets/djibouti/
+    - assets/congo/
+    - assets/maldives/
+    - assets/burkina_faso/
+    - assets/syria/
+    - assets/myanmar/
+    - assets/singapore/
+    - assets/spain/
+    - assets/angola/
+    - assets/barbados/
+    - assets/bhutan/
+    - assets/egypt/
+    - assets/india/
+    - assets/iraq/
+    - assets/lebanon/
+    - assets/portugal/
+    - assets/venezuela/
+    - assets/argentina/
+    - assets/china/
+    - assets/denmark/
+    - assets/sweden/
+    - assets/finland/
+    - assets/switzerland/
+    - assets/pakistan/
+    - assets/oman/
+    - assets/kazakhstan/
+    - assets/seychelles/
+    - assets/tunisia/
+    - assets/turkey/
+    - assets/andorra/
+    - assets/brazil/
+    - assets/cambodia/
+    - assets/cuba/
+    - assets/ethiopia/
+    - assets/ghana/
+    - assets/jordan/
+    - assets/kenya/
+    - assets/kyrgyzstan/
+    - assets/lesotho/
+    - assets/albania/
+    - assets/bahrain/
+    - assets/canada/
+    - assets/cyprus/
+    - assets/israel/
+    - assets/laos/
+    - assets/mexico/
+    - assets/panama/
+    - assets/philippines/
+    - assets/algeria/
+    - assets/dominican_republic/
+    - assets/ecuador/
+    - assets/azerbaijan/
+    - assets/malta/
+    - assets/mauritania/
+    - assets/norway/
+    - assets/qatar/
+    - assets/guatemala/
+    - assets/vatican_city/
+    - assets/uzbekistan/
+    - assets/saudi_arabia/
+    - assets/turkmenistan/
+    - assets/sri_lanka/
+    - assets/zimbabwe/
+    - assets/belarus/
+    - assets/croatia/
+    - assets/guinea_bissau/
+    - assets/kuwait/
+    - assets/moldova/
+    - assets/niger/
+    - assets/north_korea/
+    - assets/north_macedonia/
+    - assets/palestine/
+    - assets/tajikistan/
+    - assets/papua_new_guinea/
+    - assets/paraguay/
+    - assets/east_timor/
+    - assets/el_salvador/
+    - assets/mongolia/
+    - assets/togo/
+    - assets/libya/
+    - assets/comoros/
+    - assets/guyana/
+    - assets/brunei/
+    - assets/nauru/
+    - assets/san_marino/
+    - assets/uganda/
+    - assets/zambia/
+    - assets/greece/
+    - assets/jamaica/
+    - assets/liberia/
+    - assets/malaysia/
+    - assets/south_korea/
+    - assets/tanzania/
+    - assets/united_states/
+    - assets/eritrea/
+    - assets/iceland/
+    - assets/marshall_islands/
+    - assets/montenegro/
+    - assets/saint_lucia/
+    - assets/tonga/
+    - assets/bosnia_and_herzegovina/
+    - assets/vanuatu/
+    - assets/afghanistan/
+    - assets/antigua_and_barbuda/
+    - assets/cabo_verde/
+    - assets/malawi/
+    - assets/micronesia/
+    - assets/rwanda/
+    - assets/south_sudan/
+    - assets/suriname/
+    - assets/dominica/
+    - assets/honduras/
+    - assets/samoa/
+    - assets/sao_tome_and_principe/
+    - assets/trinidad_and_tobago/
+    - assets/grenada/
+    - assets/kiribati/
+    - assets/equatorial_guinea/
+    - assets/saint_vincent_and_the_grenadines/
+    - assets/saint_kitts_and_nevis/
+    - assets/nepal/
+    - assets/south_africa/
+    - assets/united_kingdom/
+    - assets/georgia/
+    - assets/iran/
+    - assets/liechtenstein/
+    - assets/serbia/
+    - assets/slovakia/
+    - assets/slovenia/
+    - assets/burundi/
+    - assets/mozambique/
+    - assets/dr_congo/
+    - assets/central_african_republic/
+    - assets/namibia/
+    - assets/Eswatini/
+    - assets/australia/
+    - assets/new_zealand/
+    - assets/tuvalu/
+    - assets/fiji/
+    - assets/Solomon_Islands/
+    - assets/bolivia/
+    - assets/uruguay/
+    - assets/belize/
+    - assets/haiti/
+    - assets/nicaragua/

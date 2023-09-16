@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+<mask id="mask0_114_1013" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="400" height="200">
+<path d="M0 0H400V200H0V0Z" fill="white" />
+</mask>
+<path d="M400 0L0 200Z" fill="black" />
+<path d="M400 0L0 200" stroke="#FCD116" stroke-width="27" />
+</svg>
