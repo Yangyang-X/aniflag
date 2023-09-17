@@ -47,4 +47,28 @@ void main() {
     expect(find.byType(LinearProgressIndicator), findsOneWidget);
     print('Flag of ${flagCca2.name} passed.');
   });
+
+  testWidgets('FlagRevealer widget test', (WidgetTester tester) async {
+    // Create a FlagCca2 instance for testing
+    const flagCca2 = FlagCca2.SB;
+
+    // Build the FlagRevealer widget
+    await tester.pumpWidget(
+      MaterialApp(
+        home: Scaffold(
+          body: FlagRevealer(
+            flagCca2: flagCca2,
+            maxHeight: 200,
+          ),
+        ),
+      ),
+    );
+
+    // Perform your test assertions here
+    // For example, you can check if the widget renders correctly
+    // expect(find.byType(Container), findsOneWidget);
+    expect(find.byType(FlagRevealer), findsNWidgets(1));
+    expect(find.byType(LinearProgressIndicator), findsOneWidget);
+    print('Flag of ${flagCca2.name} passed.');
+  });
 }
