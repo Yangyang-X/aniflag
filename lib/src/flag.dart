@@ -1796,20 +1796,20 @@ class Flag {
     "sb": {
       "name": "Solomon Islands",
       "paths": [
-        "assets/solomon_islands/solomon_islands_1.svg",
-        "assets/solomon_islands/solomon_islands_2.svg",
-        "assets/solomon_islands/solomon_islands_3.svg",
-        "assets/solomon_islands/solomon_islands_4.svg"
+        "assets/sb/solomon_islands_1.svg",
+        "assets/sb/solomon_islands_2.svg",
+        "assets/sb/solomon_islands_3.svg",
+        "assets/sb/solomon_islands_4.svg"
       ],
       "aspect": 2.0
     },
     "sz": {
       "name": "Eswatini",
       "paths": [
-        "assets/eswatini/eswatini_1.svg",
-        "assets/eswatini/eswatini_2.svg",
-        "assets/eswatini/eswatini_3.svg",
-        "assets/eswatini/eswatini_4.svg"
+        "assets/eswatini_/eswatini_1.svg",
+        "assets/eswatini_/eswatini_2.svg",
+        "assets/eswatini_/eswatini_3.svg",
+        "assets/eswatini_/eswatini_4.svg"
       ],
       "aspect": 1.5
     }
