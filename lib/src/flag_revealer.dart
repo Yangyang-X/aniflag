@@ -1,3 +1,4 @@
+// ignore_for_file: public_member_api_docs, sort_constructors_first
 // ignore_for_file: constant_identifier_names
 
 import 'package:flutter/material.dart';
@@ -204,8 +205,10 @@ enum FlagCca2 {
 
 class FlagRevealer extends StatefulWidget {
   final FlagCca2 flagCca2;
+  final double? maxHeight;
 
-  const FlagRevealer({Key? key, required this.flagCca2}) : super(key: key);
+  const FlagRevealer({Key? key, required this.flagCca2, this.maxHeight})
+      : super(key: key);
 
   @override
   State<FlagRevealer> createState() => _FlagRevealerState();
@@ -216,6 +219,7 @@ class _FlagRevealerState extends State<FlagRevealer>
   late AnimationController _controller;
   late List<Animation<double>> _animations;
   List<SvgPicture> flagLayers = [];
+  double flagAspect = 1.5;
 
   @override
   void initState() {
@@ -258,15 +262,14 @@ class _FlagRevealerState extends State<FlagRevealer>
   }
 
   void loadFlagLayers() {
-    final flag = Flag.flags[widget.flagCca2.name.toLowerCase()];
-    if (flag == null) {
-      throw Exception('No svg paths found for ${widget.flagCca2.name}');
-    }
+    final flag = Flag.fromCca2(widget.flagCca2);
+    flagAspect = flag.aspect;
     final svgPaths = flag.svgPaths;
     for (var path in svgPaths) {
       flagLayers.add(SvgPicture.asset(
         path,
         fit: BoxFit.contain,
+        package: 'aniflag',
       ));
     }
   }
@@ -279,50 +282,51 @@ class _FlagRevealerState extends State<FlagRevealer>
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Colors.grey[100],
-      height: 200,
-      width: 300,
-      child: Stack(
-        children: [
-          Stack(
-            children: flagLayers.asMap().entries.map((entry) {
-              int index = entry.key;
-              SvgPicture flagLayer = entry.value;
-              return AnimatedBuilder(
-                animation: _controller,
-                builder: (BuildContext context, Widget? child) {
-                  double value = _animations[index].value;
-                  return Opacity(
-                    opacity: value,
-                    child: Align(
-                      alignment: Alignment.topCenter,
-                      child: flagLayer,
-                    ),
-                  );
-                },
-              );
-            }).toList(),
-          ),
-          Padding(
-            padding: const EdgeInsets.only(right: 0, bottom: 0),
-            child: Align(
-              alignment: Alignment.bottomRight,
-              child: AnimatedBuilder(
-                animation: _controller,
-                builder: (BuildContext context, Widget? child) {
-                  return LinearProgressIndicator(
-                    value: 1.0 - _controller.value,
-                    backgroundColor: Colors.transparent,
-                    valueColor:
-                        const AlwaysStoppedAnimation<Color>(Colors.blue),
-                  );
-                },
-              ),
-            ),
-          ),
-        ],
-      ),
+    return LayoutBuilder(
+      builder: (BuildContext context, BoxConstraints constraints) {
+        return ConstrainedBox(
+            constraints: const BoxConstraints(maxHeight: 200),
+            child: AspectRatio(
+                aspectRatio: flagAspect,
+                child: Container(
+                  color: Colors.grey[200],
+                  child: Stack(
+                    alignment: Alignment.bottomCenter,
+                    children: [
+                      Stack(
+                        children: flagLayers.asMap().entries.map((entry) {
+                          int index = entry.key;
+                          SvgPicture flagLayer = entry.value;
+                          return AnimatedBuilder(
+                            animation: _controller,
+                            builder: (BuildContext context, Widget? child) {
+                              double value = _animations[index].value;
+                              return Opacity(
+                                opacity: value,
+                                child: Align(
+                                  alignment: Alignment.topCenter,
+                                  child: flagLayer,
+                                ),
+                              );
+                            },
+                          );
+                        }).toList(),
+                      ),
+                      AnimatedBuilder(
+                        animation: _controller,
+                        builder: (BuildContext context, Widget? child) {
+                          return LinearProgressIndicator(
+                            value: 1.0 - _controller.value,
+                            backgroundColor: Colors.transparent,
+                            valueColor: const AlwaysStoppedAnimation<Color>(
+                                Colors.blue),
+                          );
+                        },
+                      ),
+                    ],
+                  ),
+                )));
+      },
     );
   }
 }

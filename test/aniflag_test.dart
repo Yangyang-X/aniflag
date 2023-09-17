@@ -9,9 +9,12 @@ void main() {
 
     // Build the FlagRevealer widget
     await tester.pumpWidget(
-      const MaterialApp(
+      MaterialApp(
         home: Scaffold(
-          body: FlagRevealer(flagCca2: flagCca2),
+          body: FlagRevealer(
+            flagCca2: flagCca2,
+            maxHeight: 200,
+          ),
         ),
       ),
     );
@@ -27,9 +30,12 @@ void main() {
 
     // Build the FlagRevealer widget
     await tester.pumpWidget(
-      const MaterialApp(
+      MaterialApp(
         home: Scaffold(
-          body: FlagRevealer(flagCca2: flagCca2),
+          body: FlagRevealer(
+            flagCca2: flagCca2,
+            maxHeight: 200,
+          ),
         ),
       ),
     );
