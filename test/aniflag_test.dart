@@ -9,7 +9,7 @@ void main() {
 
     // Build the FlagRevealer widget
     await tester.pumpWidget(
-      MaterialApp(
+      const MaterialApp(
         home: Scaffold(
           body: FlagRevealer(
             flagCca2: flagCca2,
@@ -30,7 +30,7 @@ void main() {
 
     // Build the FlagRevealer widget
     await tester.pumpWidget(
-      MaterialApp(
+      const MaterialApp(
         home: Scaffold(
           body: FlagRevealer(
             flagCca2: flagCca2,
@@ -54,7 +54,7 @@ void main() {
 
     // Build the FlagRevealer widget
     await tester.pumpWidget(
-      MaterialApp(
+      const MaterialApp(
         home: Scaffold(
           body: FlagRevealer(
             flagCca2: flagCca2,
