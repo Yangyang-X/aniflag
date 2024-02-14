@@ -147,6 +147,7 @@ enum FlagCca2 {
   PH,
   PK,
   PL,
+  PS,
   PT,
   PW,
   PY,
