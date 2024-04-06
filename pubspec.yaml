@@ -1,6 +1,6 @@
 name: aniflag
 description: Revealing flag by elements using flutter_svg.
-version: 0.1.1
+version: 0.1.2
 homepage: https://playgeo.one
 
 environment:
