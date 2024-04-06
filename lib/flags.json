@@ -30,10 +30,7 @@
   },
   "bh": {
     "name": "Bahrain",
-    "paths": [
-      "assets/bahrain/bahrain_1.svg",
-      "assets/bahrain/bahrain_2.svg"
-    ],
+    "paths": ["assets/bahrain/bahrain_1.svg", "assets/bahrain/bahrain_2.svg"],
     "aspect": 1.67
   },
   "bd": {
@@ -140,10 +137,7 @@
   },
   "jp": {
     "name": "Japan",
-    "paths": [
-      "assets/japan/japan_1.svg",
-      "assets/japan/japan_2.svg"
-    ],
+    "paths": ["assets/japan/japan_1.svg", "assets/japan/japan_2.svg"],
     "aspect": 1.5
   },
   "jo": {
@@ -289,10 +283,7 @@
   },
   "qa": {
     "name": "Qatar",
-    "paths": [
-      "assets/qatar/qatar_1.svg",
-      "assets/qatar/qatar_2.svg"
-    ],
+    "paths": ["assets/qatar/qatar_1.svg", "assets/qatar/qatar_2.svg"],
     "aspect": 2.55
   },
   "sa": {
@@ -374,10 +365,7 @@
   },
   "tr": {
     "name": "Turkey",
-    "paths": [
-      "assets/turkey/turkey_1.svg",
-      "assets/turkey/turkey_2.svg"
-    ],
+    "paths": ["assets/turkey/turkey_1.svg", "assets/turkey/turkey_2.svg"],
     "aspect": 1.5
   },
   "tm": {
@@ -412,10 +400,7 @@
   },
   "vn": {
     "name": "Vietnam",
-    "paths": [
-      "assets/vietnam/vietnam_1.svg",
-      "assets/vietnam/vietnam_2.svg"
-    ],
+    "paths": ["assets/vietnam/vietnam_1.svg", "assets/vietnam/vietnam_2.svg"],
     "aspect": 1.5
   },
   "ye": {
@@ -439,10 +424,7 @@
   },
   "al": {
     "name": "Albania",
-    "paths": [
-      "assets/albania/albania_1.svg",
-      "assets/albania/albania_2.svg"
-    ],
+    "paths": ["assets/albania/albania_1.svg", "assets/albania/albania_2.svg"],
     "aspect": 1.4
   },
   "ad": {
@@ -530,10 +512,7 @@
   },
   "dk": {
     "name": "Denmark",
-    "paths": [
-      "assets/denmark/denmark_1.svg",
-      "assets/denmark/denmark_2.svg"
-    ],
+    "paths": ["assets/denmark/denmark_1.svg", "assets/denmark/denmark_2.svg"],
     "aspect": 1.325
   },
   "ee": {
@@ -547,10 +526,7 @@
   },
   "fi": {
     "name": "Finland",
-    "paths": [
-      "assets/finland/finland_1.svg",
-      "assets/finland/finland_2.svg"
-    ],
+    "paths": ["assets/finland/finland_1.svg", "assets/finland/finland_2.svg"],
     "aspect": 1.64
   },
   "fr": {
@@ -573,10 +549,7 @@
   },
   "gr": {
     "name": "Greece",
-    "paths": [
-      "assets/greece/greece_1.svg",
-      "assets/greece/greece_2.svg"
-    ],
+    "paths": ["assets/greece/greece_1.svg", "assets/greece/greece_2.svg"],
     "aspect": 1.5
   },
   "hu": {
@@ -680,10 +653,7 @@
   },
   "mc": {
     "name": "Monaco",
-    "paths": [
-      "assets/monaco/monaco_1.svg",
-      "assets/monaco/monaco_2.svg"
-    ],
+    "paths": ["assets/monaco/monaco_1.svg", "assets/monaco/monaco_2.svg"],
     "aspect": 1.5
   },
   "me": {
@@ -715,10 +685,7 @@
   },
   "pl": {
     "name": "Poland",
-    "paths": [
-      "assets/poland/poland_1.svg",
-      "assets/poland/poland_2.svg"
-    ],
+    "paths": ["assets/poland/poland_1.svg", "assets/poland/poland_2.svg"],
     "aspect": 1.5
   },
   "pt": {
@@ -798,10 +765,7 @@
   },
   "se": {
     "name": "Sweden",
-    "paths": [
-      "assets/sweden/sweden_1.svg",
-      "assets/sweden/sweden_2.svg"
-    ],
+    "paths": ["assets/sweden/sweden_1.svg", "assets/sweden/sweden_2.svg"],
     "aspect": 1.6
   },
   "ch": {
@@ -814,10 +778,7 @@
   },
   "ua": {
     "name": "Ukraine",
-    "paths": [
-      "assets/ukraine/ukraine_1.svg",
-      "assets/ukraine/ukraine_2.svg"
-    ],
+    "paths": ["assets/ukraine/ukraine_1.svg", "assets/ukraine/ukraine_2.svg"],
     "aspect": 1.5
   },
   "gb": {
@@ -939,10 +900,7 @@
   },
   "ma": {
     "name": "Morocco",
-    "paths": [
-      "assets/morocco/morocco_1.svg",
-      "assets/morocco/morocco_2.svg"
-    ],
+    "paths": ["assets/morocco/morocco_1.svg", "assets/morocco/morocco_2.svg"],
     "aspect": 1.5
   },
   "ao": {
@@ -1072,10 +1030,7 @@
   },
   "so": {
     "name": "Somalia",
-    "paths": [
-      "assets/somalia/somalia_1.svg",
-      "assets/somalia/somalia_2.svg"
-    ],
+    "paths": ["assets/somalia/somalia_1.svg", "assets/somalia/somalia_2.svg"],
     "aspect": 1.5
   },
   "zw": {
@@ -1129,10 +1084,7 @@
   },
   "tn": {
     "name": "Tunisia",
-    "paths": [
-      "assets/tunisia/tunisia_1.svg",
-      "assets/tunisia/tunisia_2.svg"
-    ],
+    "paths": ["assets/tunisia/tunisia_1.svg", "assets/tunisia/tunisia_2.svg"],
     "aspect": 1.5
   },
   "ss": {
@@ -1309,15 +1261,6 @@
       "assets/mauritius/mauritius_4.svg"
     ],
     "aspect": 1.5
-  },
-  "sz": {
-    "name": "Eswatini",
-    "paths": [
-      "assets/eswatini/eswatini_1.svg",
-      "assets/eswatini/eswatini_2.svg",
-      "assets/eswatini/eswatini_3.svg",
-      "assets/eswatini/eswatini_4.svg"
-    ]
   },
   "dj": {
     "name": "Djibouti",
@@ -1779,10 +1722,7 @@
   },
   "pw": {
     "name": "Palau",
-    "paths": [
-      "assets/palau/palau_1.svg",
-      "assets/palau/palau_2.svg"
-    ],
+    "paths": ["assets/palau/palau_1.svg", "assets/palau/palau_2.svg"],
     "aspect": 1.6
   },
   "pg": {
@@ -1803,15 +1743,6 @@
       "assets/samoa/samoa_3.svg"
     ],
     "aspect": 2.0
-  },
-  "sb": {
-    "name": "Solomon Islands",
-    "paths": [
-      "assets/solomon_islands/solomon_islands_1.svg",
-      "assets/solomon_islands/solomon_islands_2.svg",
-      "assets/solomon_islands/solomon_islands_3.svg",
-      "assets/solomon_islands/solomon_islands_4.svg"
-    ]
   },
   "to": {
     "name": "Tonga",
