@@ -207,8 +207,7 @@ class FlagRevealer extends StatefulWidget {
   final FlagCca2 flagCca2;
   final double? maxHeight;
 
-  const FlagRevealer({Key? key, required this.flagCca2, this.maxHeight})
-      : super(key: key);
+  const FlagRevealer({super.key, required this.flagCca2, this.maxHeight});
 
   @override
   State<FlagRevealer> createState() => _FlagRevealerState();

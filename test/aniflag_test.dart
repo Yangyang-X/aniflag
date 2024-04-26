@@ -21,7 +21,7 @@ void main() {
 
     expect(find.byType(FlagRevealer), findsNWidgets(1));
     expect(find.byType(LinearProgressIndicator), findsOneWidget);
-    print('Flag of ${flagCca2.name} passed.');
+    debugPrint('Flag of ${flagCca2.name} passed.');
   });
 
   testWidgets('FlagRevealer widget test', (WidgetTester tester) async {
@@ -45,7 +45,7 @@ void main() {
     // expect(find.byType(Container), findsOneWidget);
     expect(find.byType(FlagRevealer), findsNWidgets(1));
     expect(find.byType(LinearProgressIndicator), findsOneWidget);
-    print('Flag of ${flagCca2.name} passed.');
+    debugPrint('Flag of ${flagCca2.name} passed.');
   });
 
   testWidgets('FlagRevealer widget test', (WidgetTester tester) async {
@@ -69,6 +69,6 @@ void main() {
     // expect(find.byType(Container), findsOneWidget);
     expect(find.byType(FlagRevealer), findsNWidgets(1));
     expect(find.byType(LinearProgressIndicator), findsOneWidget);
-    print('Flag of ${flagCca2.name} passed.');
+    debugPrint('Flag of ${flagCca2.name} passed.');
   });
 }

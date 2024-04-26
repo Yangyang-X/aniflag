@@ -10,3 +10,7 @@
 ## 0.1.3
 
 * Fix Solomon Islands and Eswatini folder names.
+
+## 1.0.1
+
+* Fix Mali flag.
